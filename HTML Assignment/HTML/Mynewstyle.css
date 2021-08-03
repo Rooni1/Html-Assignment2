@@ -1,0 +1,163 @@
+.flex-manue {
+    display: flex;
+    background-color: lightblue;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    
+
+  }
+  .flex-manue > div {
+    
+    justify-content: space-around;
+    justify-content: space-between;
+    margin: 10px;
+    padding: 30px;
+    font-size: 30px;
+    line-height: 0px;
+    text-align: center;
+    
+  }
+
+.flex-pagelayout{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    margin-top: 10px;
+}
+
+.flex-item-left{
+    background-color: lightblue;
+    padding: 10px;
+    flex: 75%;
+    margin-bottom: 5px;
+}
+.flex-item-right{
+    background-color: rgb(231, 178, 178);
+    padding: 10px;
+    flex: 25%;
+    margin-bottom: 5px;
+}
+
+
+.flex-navigation{
+    display: flex;
+    background-color: lightgray;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    justify-content: space-between;
+
+
+}
+.flex-navigation > div {
+    
+    justify-content: space-around;
+    justify-content: space-between;
+    margin: 10px;
+    padding: 30px;
+    font-size: 30px;
+    line-height: 0px;
+    text-align: center;
+}
+.flex-container1{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-right: 10px;
+    margin-top: 10px;
+    
+
+}
+.flex-container2{
+
+    display: flex;
+    background-color: lightgrey;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+.flex-container2 > div {
+    justify-content: space-around;
+    justify-content: space-between;  
+    align-items: center;
+  
+   
+  
+}
+.flex-aside{
+
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    margin-right: 10px;
+    background-color: lightgray;
+    font-style: italic;
+    
+
+}
+
+
+footer
+{
+    font-style: italic;
+    background-color: lightgrey;
+
+}
+form
+{
+    border: 3px solid #ffffff;
+    border-radius: 25px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 10px 20px;
+    background-color: lightgray;
+    
+}
+input[type=text], input[type=password] 
+{
+  width: 15%;
+  padding: 10px 20px;
+  margin: 6px 3px;
+  display: block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  margin-right: auto;
+  margin-left: auto;
+}
+.imgcontainer
+{
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+.navigation
+{
+  background-color: lightgray;
+  text-align: left;
+  text-transform: uppercase;
+}
+.logo
+{
+  width: 40%;
+  border-radius: 50%;
+}
+body
+{
+  
+  font-family: Verdana, sans-serif;
+}
+.controls
+{
+  text-align: center;
+}
+#submit {
+  background-color: lightgreen;
+  border-radius: 25px;
+}
+#reset{
+  background-color: orange;
+  border-radius: 25px;
+}
+
